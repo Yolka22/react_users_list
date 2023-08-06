@@ -1,0 +1,5 @@
+.userlist{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three items per row */
+  gap: 10px; /* Add some spacing between grid items */
+}
