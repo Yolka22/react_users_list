@@ -1,10 +1,11 @@
 import React from 'react'
-import UsersList from "../modules/UI/UsersList/UsersList"
+import UsersList from "../../modules/UI/UsersList/UsersList"
+import "./Home.css"
 const apiLink = "https://jsonplaceholder.typicode.com/users"
 
 function Home() {
   return (
-    <div>
+    <div className='home'>
       <UsersList apiLink={apiLink}></UsersList>
     </div>
   );

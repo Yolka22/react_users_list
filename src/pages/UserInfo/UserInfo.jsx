@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import "./UserInfo.css"
 
 function UserInfo() {
   const { userId } = useParams();
@@ -18,13 +19,15 @@ function UserInfo() {
   }
 
   return (
-    <div>
+    <div className='container'>
+    <div className='fullInfo'>
       <div>{userData.id}</div>
       <div>{userData.name}</div>
       <div>{userData.username}</div>
       <div>{userData.email}</div>
       <div>{userData.phone}</div>
       <div>{userData.website}</div>
+    </div>
     </div>
   );
 }
