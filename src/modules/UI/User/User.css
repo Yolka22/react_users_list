@@ -1,11 +1,24 @@
 .user{
+    margin: 10px;
     padding-left: 20px;
     text-decoration: none;
     font-size: 1.2rem;
     border-radius: 10px;
-    background-color: teal;
     color: whitesmoke;
+
+    background: rgb(34,193,195);
+background: linear-gradient(6deg, rgba(34,193,195,1) 0%, rgba(115,208,140,1) 32%, rgba(123,182,213,1) 49%, rgba(166,217,105,1) 66%, rgba(253,233,45,1) 100%);
 }
 .user:hover{
-    background-color: rgb(1, 76, 76);
+    animation: skewAnimation 0.5s ease-in-out;
+    transform: skewX(10deg);
 }
+
+@keyframes skewAnimation {
+    0% {
+      transform: skewX(0deg); /* Начальное значение наклона */
+    }
+    100% {
+      transform: skewX(10deg); /* Конечное значение наклона */
+    }
+  }

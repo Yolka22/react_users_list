@@ -2,9 +2,10 @@
     border-radius: 10px;
     margin: 5px;
     padding: 10px;
-    background-color: teal;
+    background: rgb(117,132,218);
+    background: linear-gradient(203deg, rgba(117,132,218,1) 19%, rgba(212,126,218,1) 31%, rgba(217,184,216,1) 54%, rgba(195,224,216,1) 70%, rgba(0,212,255,1) 100%);
 }
 
 span{
-    color: antiquewhite;
+    color: rgb(93, 54, 4);
 }
