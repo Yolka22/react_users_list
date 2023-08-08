@@ -6,7 +6,7 @@ const UsersList = ({ apiLink }) => {
   const [users, setUsers] = React.useState([]);
 
   React.useEffect(() => {
-    UserApi.getUsers(apiLink)
+    UserApi.getInfo(apiLink)
       .then((data) => {
         setUsers(data);
       })

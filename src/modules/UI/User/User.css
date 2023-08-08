@@ -1,6 +1,11 @@
 .user{
+    padding-left: 20px;
+    text-decoration: none;
     font-size: 1.2rem;
     border-radius: 10px;
     background-color: teal;
     color: whitesmoke;
+}
+.user:hover{
+    background-color: rgb(1, 76, 76);
 }

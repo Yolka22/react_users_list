@@ -1,0 +1,14 @@
+nav{
+    text-decoration: none;
+    display: flex;
+}
+.navelement{
+    background-color: rgb(246, 200, 132);
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.navelement:hover{
+    background-color: rgb(169, 117, 39);
+}

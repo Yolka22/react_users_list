@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Layout from "./pages/Layout";
-import News from "./pages/News";
+import Layout from "./pages/Layout/Layout";
+import News from "./pages/News/News";
 import UserInfo from "./pages/UserInfo";
-
+import "./index.css"
 export default function App() {
   return (
     <BrowserRouter>

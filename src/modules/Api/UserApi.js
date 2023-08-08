@@ -1,7 +1,9 @@
 import axios from "axios";
 
 class UserApi {
-  static async getUsers(apiLink) {
+    usersLink="https://jsonplaceholder.typicode.com/users";
+
+  static async getInfo(apiLink) {
     try {
       const response = await axios.get(apiLink);
       return response.data;
